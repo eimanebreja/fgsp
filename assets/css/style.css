@@ -1481,8 +1481,70 @@ ul .list ul:hover {
 
 }
 
+.depart-image-bg.ej {
+  background-image: url("../img/team/bw/EJ.jpg");
+
+}
+
+.depart-image-bg.ej::after {
+  display: none;
+  content: url("../img/team/bw/EJ.jpg") url("../img/team/color/EJ.jpg");
+}
+
+.depart-image-bg.ej:hover {
+  background-image: url("../img/team/color/EJ.jpg");
+
+}
+
+
+.depart-image-bg.carlo {
+  background-image: url("../img/team/bw/CARLO.jpg");
+
+}
+
+.depart-image-bg.carlo::after {
+  display: none;
+  content: url("../img/team/bw/CARLO.jpg") url("../img/team/color/CARLO.jpg");
+}
+
+.depart-image-bg.carlo:hover {
+  background-image: url("../img/team/color/CARLO.jpg");
+
+}
+
+.depart-image-bg.genesis {
+  background-image: url("../img/team/bw/GENESIS.jpg");
+
+}
+
+.depart-image-bg.genesis::after {
+  display: none;
+  content: url("../img/team/bw/GENESIS.jpg") url("../img/team/color/GENESIS.jpg");
+}
+
+.depart-image-bg.genesis:hover {
+  background-image: url("../img/team/color/GENESIS.jpg");
+
+}
+
+.depart-image-bg.charlone {
+  background-image: url("../img/team/bw/CHARLONE.jpg");
+
+}
+
+.depart-image-bg.charlone::after {
+  display: none;
+  content: url("../img/team/bw/CHARLONE.jpg") url("../img/team/color/CHARLONE.jpg");
+}
+
+.depart-image-bg.charlone:hover {
+  background-image: url("../img/team/color/CHARLONE.jpg");
+
+}
+
+
 .depart-image-bg.jai {
-  background-image: url("../img/team/bw/JAIRUS11.jpg");
+  background-image: url("../img/team/bw/JAIRUS.jpg");
   transition: all 300ms 0s ease-in;
   overflow: hidden;
 }
