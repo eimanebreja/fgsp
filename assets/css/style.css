@@ -820,6 +820,50 @@ ul .list ul:hover {
   text-align: center;
 }
 
+.social-media-area {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-media-area .social-instagram {
+  flex-basis: 40%;
+  margin-left: 5%;
+}
+
+.social-fb .fb-page {
+  background: #FFF;
+  border: 0;
+  border-radius: 3px;
+  box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.5), 0 1px 10px 0 rgba(0, 0, 0, 0.15);
+  margin: 1px;
+  max-width: 540px;
+  min-width: 326px;
+  padding: 0;
+  width: 99.375%;
+  width: -webkit-calc(100% - 2px);
+  width: calc(100% - 2px);
+}
+
+.social-twitter .twitter-timeline {
+
+  background: #FFF;
+  border: 0;
+  border-radius: 3px;
+  box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.5), 0 1px 10px 0 rgba(0, 0, 0, 0.15);
+  margin: 1px;
+  max-width: 540px;
+  min-width: 326px;
+  padding: 0;
+  width: 99.375%;
+  width: -webkit-calc(100% - 2px);
+  width: calc(100% - 2px);
+}
+
+
 .ft-logo img {
   width: 6%;
   position: relative;
@@ -905,6 +949,11 @@ ul .list ul:hover {
 .privacy-policy ul li {
   display: inline-block;
   padding: 10px 10px;
+  color: #792848;
+  font-size: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  font-family: 'Montserrat', sans-serif;
 
 }
 
@@ -2582,6 +2631,8 @@ textarea::placeholder {
 }
 
 
+
+
 @media only screen and (max-width: 900px) {
   .nav-item .logo-link {
     flex-basis: 15%;
@@ -2996,6 +3047,11 @@ textarea::placeholder {
   .privacy-policy ul li {
     display: inline-block;
     padding: 10px 10px;
+    color: #792848;
+    font-size: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
 
   }
 
@@ -4851,6 +4907,43 @@ textarea::placeholder {
 
   }
 
+
+  .social-media-area .social-twitter {
+    padding-top: 10%;
+    flex-basis: 40%;
+    margin-left: 0%;
+  }
+
+  .social-fb .fb-page {
+    background: #FFF;
+    border: 0;
+    border-radius: 3px;
+    box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.5), 0 1px 10px 0 rgba(0, 0, 0, 0.15);
+    margin: 1px;
+    max-width: 100%;
+    min-width: 100%;
+    padding: 0;
+    width: 100%;
+    width: -webkit-calc(100% - 0px);
+    width: calc(100% - 0px);
+  }
+
+  .social-twitter .twitter-timeline {
+
+    background: #FFF;
+    border: 0;
+    border-radius: 3px;
+    box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.5), 0 1px 10px 0 rgba(0, 0, 0, 0.15);
+    margin: 1px;
+    max-width: 100%;
+    min-width: 100%;
+    padding: 0;
+    width: 100%;
+    width: -webkit-calc(100% - 0px);
+    width: calc(100% - 0px);
+  }
+
+
   .ft-link ul {
     width: 100%;
     display: -webkit-box;
@@ -4988,7 +5081,11 @@ textarea::placeholder {
   .privacy-policy ul li {
     display: inline-block;
     padding: 10px 10px;
-
+    color: #792848;
+    font-size: 1.9vw;
+    text-decoration: none;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
   }
 
   .privacy-policy a {
